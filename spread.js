@@ -9,3 +9,10 @@ const arr1 = [12, 32, 34];
 const arr2 = [12, 13, 14, ...arr1];
 arr1.push(43);
 console.log(...arr1);
+
+
+const person = { Name: 'Minhajul', age: 23, slary: 25000 };
+
+const person2 = { ...person };
+person.profession = 'Developer';
+console.log(person);
