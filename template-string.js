@@ -16,7 +16,7 @@ const fullname = `${firstName} ${lastName}`;
 function getcardHTML(name, description, price) {
   const div = `
   <div class="card>"
-    <h2>${name}</h2>
+    <h2>${name.toUpperCase()}</h2>
     <p>Price:$ ${price}</p>
     <p>${description}</p>
   </div>
